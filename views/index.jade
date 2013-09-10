@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  p.clear
+  h1= title
+  #images
+    each item in data
+      -if(item && item.link && item.images && item.images.low_resolution && item.caption)
+        a(href="#{item.link}", target="_blank")
+          img(src="#{item.images.low_resolution.url}",title="#{item.caption.text}") 
+  #footer

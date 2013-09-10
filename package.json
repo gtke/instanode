@@ -1,0 +1,15 @@
+{
+  "name": "instanode",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "instagram-node-lib": "*",
+    "request": "*"
+  }
+}
