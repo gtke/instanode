@@ -1,8 +1,8 @@
 var request = require ('request'),
 	Instagram  = require('instagram-node-lib');
 
-Instagram.set('client_id', '');
-Instagram.set('client_secret', '');
+Instagram.set('client_id', 'dd075d10031b4460ae5767d5ff871ae3');
+Instagram.set('client_secret', 'eef0975ca76b462b8f5c5c4ab02f66f2');
 
 Instagram.getImagesByTag = function(tag, callback) {
   return Instagram.tags.recent({
